@@ -1,0 +1,7 @@
+function addStudent() {
+
+}
+
+function viewPast() {
+  
+}

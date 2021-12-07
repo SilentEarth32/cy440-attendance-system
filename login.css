@@ -1,0 +1,25 @@
+/* h2, input, button */
+
+h2 {
+    text-align: center;
+  }
+  
+  input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  
+  a {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
