@@ -1,7 +1,7 @@
 <?php  
     /* Database Connection */  
     $sDbHost = 'localhost' ;  
-    $sDbName = 'mcn' ;  
+    $sDbName = 'Attendance Records' ;  
     $sDbUser = 'root';  
     $sDbPud = '';  
     $ Conn = mysql_connect ($sDbHost, $sDbUser, $sDbPwd);  

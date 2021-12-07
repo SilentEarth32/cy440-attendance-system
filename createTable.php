@@ -3,8 +3,8 @@
     if ( ! $con)  
     die ( ' Could not connect: ' .mysql_error ( ) ) ;  
     }  
-    mysql_select_db ("MCN", $con) ;  
-    $sql = "CREATE TABLE EMPLOYEE  
+    mysql_select_db ("Attendance Records", $con) ;  
+    $sql = "CREATE TABLE STUDENT  
     (  
     Name varchar ( 50) ,  
     )" ;  

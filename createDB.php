@@ -1,6 +1,6 @@
 <?php    
     $con = mysql_connect ("localhost", "root" , "" ) ;    
-    $ db="MCN";    
+    $ db="Attendance Records";    
     if ( ! $con)    
     die ( ' Could not connect: ' . mysql_error( ) ) ;    
     if (mysql_query ("CREATE DATABASE $db" , $con) )    
