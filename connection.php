@@ -1,13 +1,8 @@
-<?php    
-    
-include "connection.php";    
-    
-if(isset($_GET['id'])){    
-$sql = "delete from registration where id = '".$_GET['id']."'";    
-$result = mysql_query($sql);    
-}    
-    
-$sql = "select * from registration";    
-$result = mysql_query($sql);    
 
-?>  
+<?php  
+    $servername = "localhost";  
+    $username = "root";  
+    $password = "";  
+    $conn = mysql_connect ($servername , $username , $password) or die("unable to connect to host");  
+    $sql = mysql_select_db ('attendance_records',$conn) or die("unable to connect to database"); 
+?>   
