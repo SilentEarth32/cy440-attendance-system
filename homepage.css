@@ -1,27 +1,27 @@
 #userCSS {
-    text-align: right;
-  }
-  
-  #welcomeCSS {
-    text-align: center;
-  }
-  
-  #attendanceForCSS {
-    text-align: left;
-  }
-  
-  #addStudent {
-    position: absolute;
-    right: 175px;
-    bottom: 25px;
-  }
-  
-  #viewPast {
-    position: absolute;
-    right: 25px;
-    bottom: 25px;
-  }
-  
-  form {
-    background-color: #C0C0C0;
-  }
+  text-align: right;
+}
+
+#welcomeCSS {
+  text-align: center;
+}
+
+#attendanceForCSS {
+  text-align: left;
+}
+
+#addStudent {
+  position: absolute;
+  right: 175px;
+  bottom: 25px;
+}
+
+#viewPast {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+form {
+  background-color: #C0C0C0;
+}
