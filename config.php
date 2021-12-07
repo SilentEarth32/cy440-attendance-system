@@ -1,5 +1,4 @@
-
-    <?php  
+<?php  
     /* Database Connection */  
     $sDbHost = 'localhost' ;  
     $sDbName = 'mcn' ;  
@@ -7,4 +6,4 @@
     $sDbPud = '';  
     $ Conn = mysql_connect ($sDbHost, $sDbUser, $sDbPwd);  
     mysql_select_db ($sDbName, $Conn);  
-    ?>  
+?>  
